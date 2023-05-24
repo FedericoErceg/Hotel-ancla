@@ -1,0 +1,14 @@
+@mixin cont-video{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+@mixin video ($position, $top, $left, $width, $height){
+    position: $position;
+    top: $top;
+    left: $left;
+    width: $width;
+    height: $height;
+    object-fit: cover;
+    z-index: 1;
+}

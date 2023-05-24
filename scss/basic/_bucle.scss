@@ -1,0 +1,58 @@
+// height
+@for $i from 1 through 10 {
+    .h-#{$i}{
+        height: 3.5px * $i;
+    }
+}
+// width
+@for $i from 1 through 10{
+    .w-#{$i}{
+        width: 3.5px * $i;
+    }
+}
+// padding
+@for $i from 6 through 10{
+    .p-#{$i}{
+        padding: 3.5px * $i;
+    }
+}
+@for $i from 30 through 10{
+    .py-#{$i}{
+        padding-top: 3.5px * $i;
+        padding-bottom: 3.5px * $i;
+    }
+}
+@for $i from 6 through 10{
+    .px-#{$i}{
+        padding-right: 3.5px * $i;
+        padding-left: 3.5px * $i;
+    }
+}
+// margin
+@for $i from 6 through 10{
+    .m-#{$i}{
+        margin: 3.5px * $i;
+    }
+}
+@for $i from 6 through 30{
+    .mx-#{$i}{
+        margin-right: 3.5px * $i;
+        margin-left: 3.5px * $i;
+    }
+}
+@for $i from 6 through 30{
+    .my-#{$i}{
+        margin-top: 3.5px * $i;
+        margin-bottom: 3.5px * $i;
+    }
+}
+@for $i from 6 through 30{
+    .mt-#{$i}{
+        margin-top: 3.5px * $i;
+    }
+}
+@for $i from 6 through 30{
+    .mb-#{$i}{
+        margin-bottom: 3.5px * $i;
+    }
+}
