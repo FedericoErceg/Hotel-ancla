@@ -796,4 +796,104 @@ video {
   opacity: 0.275;
 }
 
+.carta1 {
+  min-height: 643px;
+}
+
+.carta3 {
+  min-height: 683.2px;
+}
+
+.index-t-hab {
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.promo1 {
+  border-top: 1px solid rgb(143, 141, 141);
+}
+
+.promo1-pro {
+  margin-left: 20px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  max-width: 450px;
+  max-height: auto;
+}
+
+.promo1-img {
+  max-height: 200px;
+  max-width: 450px;
+}
+.promo1-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  color: #000000;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-2 {
+  letter-spacing: 0;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  letter-spacing: 1px;
+}
+
+.btn-2:after,
+.btn-2:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(0, 0, 0, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-2:hover:after,
+.btn-2:hover:before {
+  backface-visibility: hidden;
+  border-color: #000000;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-2:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+
+.index-t-hab {
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 3px;
+}
+
 /*# sourceMappingURL=styles.css.map */
