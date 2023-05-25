@@ -1,4 +1,4 @@
-.btn {
+.btn-general {
     color: #000000;
     cursor: pointer;
     font-size:16px;
@@ -9,7 +9,7 @@
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    width: 100%; 
+    width: 100%;
 
     @media(min-width: 600px) {  
       margin: 0 1em 2em;
