@@ -892,8 +892,8 @@ video {
 .index-t-hab {
   font-weight: 600;
   font-style: italic;
-  text-decoration: underline;
-  letter-spacing: 3px;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=styles.css.map */
