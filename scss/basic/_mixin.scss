@@ -38,3 +38,10 @@
     border: solid 1px white;
     border-radius: 30px;
 }
+
+@mixin position ($position, $top, $left, $z-index){
+    position: $position;
+    top: $top;
+    left: $left;
+    z-index: $z-index;
+}
