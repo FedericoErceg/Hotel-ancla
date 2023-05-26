@@ -1,5 +1,5 @@
 #footer{
-    background-color: $terciary-color;
+    background-color: #dcdfdd;
 }
 .logo-footer{
     max-width: 200px;
@@ -13,39 +13,8 @@
     min-width: 50px;
     width: 100%;
     max-width: 800px;
-    border-top: 1px solid rgba($color: white, $alpha: 0.3);
+    border-top: 1px solid rgba($color: white, $alpha: 0.5);
 }
 .btn-footer{
-    background-color: black;
-}
-
-.redes-sociales{
-    padding: 40px 0;
-    margin-bottom: 40px;
-    .icono{
-        width: 100px;
-        height: 100px;
-        color: #fff;
-        background: #cbcbcb;
-        display: inline-block;
-        margin: 0px 20px;
-        text-decoration: none;
-        border-radius: 100px;
-        transition: all .3s ease;
-        @media screen and (max-width: 576px) {
-            width: 50px;
-            height: 50px;
-        }
-    }
-    svg{
-        width: 40px;
-        height: 40px;
-        @media screen and (max-width: 576px) {
-            width: 25px;
-            height: 25px;
-        }
-    }
-    .twitter{background-color: #1da1f2;}
-    .instagram{background-color: #833ab4;}
-    .facebook{background-color: #3b5998;}
+    background-color: white;
 }

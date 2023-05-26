@@ -875,7 +875,7 @@ video {
 }
 
 #footer {
-  background-color: #0B0500;
+  background-color: #dcdfdd;
 }
 
 .logo-footer {
@@ -891,52 +891,11 @@ video {
   min-width: 50px;
   width: 100%;
   max-width: 800px;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .btn-footer {
-  background-color: black;
-}
-
-.redes-sociales {
-  padding: 40px 0;
-  margin-bottom: 40px;
-}
-.redes-sociales .icono {
-  width: 100px;
-  height: 100px;
-  color: #fff;
-  background: #cbcbcb;
-  display: inline-block;
-  margin: 0px 20px;
-  text-decoration: none;
-  border-radius: 100px;
-  transition: all 0.3s ease;
-}
-@media screen and (max-width: 576px) {
-  .redes-sociales .icono {
-    width: 50px;
-    height: 50px;
-  }
-}
-.redes-sociales svg {
-  width: 40px;
-  height: 40px;
-}
-@media screen and (max-width: 576px) {
-  .redes-sociales svg {
-    width: 25px;
-    height: 25px;
-  }
-}
-.redes-sociales .twitter {
-  background-color: #1da1f2;
-}
-.redes-sociales .instagram {
-  background-color: #833ab4;
-}
-.redes-sociales .facebook {
-  background-color: #3b5998;
+  background-color: white;
 }
 
 .btn-general {
@@ -1070,7 +1029,7 @@ video {
 }
 
 .btn-5 {
-  color: white;
+  color: black;
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid;
@@ -1099,6 +1058,47 @@ video {
 .promo1-t {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.redes-sociales {
+  padding: 40px 0;
+  margin-bottom: 40px;
+}
+.redes-sociales .icono {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  background: #cbcbcb;
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 576px) {
+  .redes-sociales .icono {
+    width: 50px;
+    height: 50px;
+  }
+}
+.redes-sociales svg {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (max-width: 576px) {
+  .redes-sociales svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+.redes-sociales .twitter {
+  background-color: #1da1f2;
+}
+.redes-sociales .instagram {
+  background-color: #833ab4;
+}
+.redes-sociales .facebook {
+  background-color: #3b5998;
 }
 
 /*# sourceMappingURL=styles.css.map */
