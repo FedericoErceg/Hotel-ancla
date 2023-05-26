@@ -5,17 +5,6 @@
     min-height: $min-height;
     max-width: 1913px;
 }
-// Botones
-@mixin index-btn($color){
-    border: 1px solid $color;
-    border-radius: 20px;
-    color: $color;
-    background-color: rgb(245, 196, 132);
-    &:hover{
-        background-color: darken($color, 4);
-        color: #fff;
-    }
-}
 // propiedades del nav (texto)
 @mixin prop-nav($size, $color, $font) { 
     font-size: $size;

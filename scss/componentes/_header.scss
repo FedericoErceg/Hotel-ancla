@@ -2,6 +2,7 @@
     @include cont-video;
     margin-top: 125px;
     padding-top: 50px;
+    box-shadow: 0px 10px 15px 2px grey;
 }
 video{
     @include video (absolute, 0, 0, 100%, 100%);

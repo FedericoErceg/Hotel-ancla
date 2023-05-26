@@ -702,12 +702,17 @@ body {
   font-family: "Bitter", serif;
 }
 
+#container {
+  background-color: #f2f2f2;
+}
+
 .main-header {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
   margin-top: 125px;
   padding-top: 50px;
+  box-shadow: 0px 10px 15px 2px grey;
 }
 
 video {
@@ -830,6 +835,65 @@ video {
   height: 40px;
 }
 
+.promo-index {
+  padding: auto;
+  max-width: 500px;
+  max-height: 600px;
+}
+.promo-index img {
+  width: 100%;
+  height: 100%;
+}
+
+.promo-index-hotel {
+  max-width: 500px;
+  max-height: 600px;
+}
+.promo-index-hotel img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1088px) {
+  .promo-index-hotel {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .titulo-index-promo {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .titulo-index-promo {
+    font-size: 15px;
+  }
+}
+
+#Promocion {
+  margin-bottom: 140px;
+}
+
+#footer {
+  background-color: #0B0500;
+}
+
+.logo-footer {
+  max-width: 200px;
+  max-height: 200px;
+}
+.logo-footer img {
+  width: 100%;
+  height: 100%;
+}
+
+.linea-separadora {
+  min-width: 50px;
+  width: 100%;
+  max-width: 800px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 .btn-general {
   color: #000000;
   cursor: pointer;
@@ -861,6 +925,71 @@ video {
 
 .btn-2 {
   letter-spacing: 0;
+}
+
+.btn-general-white {
+  color: #fcfcfc;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .btn-general-white {
+    font-size: 20px;
+    margin: 0 1em 2em;
+  }
+}
+@media (max-width: 576px) {
+  .btn-general-white {
+    font-size: 16px;
+    margin: 0 1em 2em;
+  }
+}
+.btn-general-white:hover {
+  text-decoration: none;
+}
+
+.btn-3 {
+  letter-spacing: 0;
+}
+
+.btn-3:hover,
+.btn-3:active {
+  letter-spacing: 1px;
+}
+
+.btn-3:after,
+.btn-3:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.btn-3:hover:after,
+.btn-3:hover:before {
+  backface-visibility: hidden;
+  border-color: #ffffff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+
+.btn-3:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
 }
 
 .btn-2:hover,
