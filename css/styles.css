@@ -1101,4 +1101,43 @@ video {
   background-color: #3b5998;
 }
 
+#container-contacto {
+  background-color: #f2f2f2;
+}
+
+.contacto-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.capa1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  background-color: #1c1c1d;
+  opacity: 0.275;
+  mix-blend-mode: overlay;
+}
+
+.contacto {
+  background-color: #f2f2f2;
+  border: #1c1c1d solid 1px;
+  border-radius: 15px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.cont-contacto, .cont-reserva {
+  --animate-duration: 0.8s;
+}
+
 /*# sourceMappingURL=styles.css.map */
