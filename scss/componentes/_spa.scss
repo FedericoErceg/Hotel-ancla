@@ -38,9 +38,19 @@
 }
 .text-promo-spa{
     width: 350px;
-    background-color: white;
-    div{
-        padding-top: 100px;
+    background-color: $primary-color;
+    h5{
+        font-weight: 600;
+        padding-top: 80px;
     }
-
+    p{
+        width: 80%;
+        font-style: italic;
+        margin-left: 35px;
+    }
+    a{
+        button{
+            margin-left: 90px;
+        }
+    }
 }
