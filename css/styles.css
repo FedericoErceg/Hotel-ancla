@@ -1108,6 +1108,17 @@ video {
   width: 65%;
 }
 
+@media screen and (max-width: 300px) {
+  .titulo-spa h2 {
+    font-size: 20.8px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .titulo-spa h2 {
+    font-size: 36px;
+  }
+}
+
 .text-body-secondary {
   font-weight: 200;
   font-style: italic;
@@ -1119,6 +1130,17 @@ video {
 
 .row-spa-t {
   position: relative;
+}
+
+@media screen and (max-width: 325px) {
+  .texto-carousel-spa {
+    font-size: 14.4px;
+  }
+}
+@media screen and (min-width: 350px) {
+  .texto-carousel-spa {
+    font-size: 18.4px;
+  }
 }
 
 .cont-horarios {
@@ -1152,10 +1174,30 @@ video {
   font-weight: 600;
   padding-top: 80px;
 }
+@media screen and (max-width: 325px) {
+  .text-promo-spa h5 {
+    font-size: 16.8px;
+  }
+}
+@media screen and (min-width: 350px) {
+  .text-promo-spa h5 {
+    font-size: 24px;
+  }
+}
 .text-promo-spa p {
   width: 80%;
   font-style: italic;
   margin-left: 35px;
+}
+@media screen and (max-width: 325px) {
+  .text-promo-spa p {
+    font-size: 14.4px;
+  }
+}
+@media screen and (min-width: 350px) {
+  .text-promo-spa p {
+    font-size: 16.8px;
+  }
 }
 .text-promo-spa a button {
   margin-left: 90px;
