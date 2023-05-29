@@ -1269,54 +1269,34 @@ video {
   font-size: auto;
 }
 
-.check {
-  height: 60px;
+.check-cont {
+  position: relative;
+}
+.check-cont section {
+  position: relative;
+  top: 10px;
+}
+
+#check section {
+  padding-right: 20px;
+  padding-left: 20px;
   border-right: 1px solid #cbcbcb;
-  width: 150px;
 }
-
-.check-row {
-  position: relative;
+@media screen and (min-width: 576px) {
+  #check section h4 {
+    font-size: auto;
+  }
+  #check section p {
+    font-size: auto;
+  }
 }
-.check-row section {
-  position: relative;
-}
-
-.check-in, .check-out {
-  position: relative;
-}
-.check-in p, .check-out p {
-  position: relative;
-  top: 20px;
-  font-size: 14.4px;
-}
-
-.habitaciones {
-  position: relative;
-}
-.habitaciones h4 {
-  position: relative;
-  bottom: 9px;
-  left: 15px;
-}
-.habitaciones p {
-  position: relative;
-  left: 50px;
-  top: 20px;
-}
-
-.suite {
-  position: relative;
-}
-.suite h4 {
-  position: relative;
-  bottom: 9px;
-  left: 15px;
-}
-.suite p {
-  position: relative;
-  left: 50px;
-  top: 20px;
+@media screen and (max-width: 576px) {
+  #check section h4 {
+    font-size: 18.4px;
+  }
+  #check section p {
+    font-size: 14.4px;
+  }
 }
 
 .redes-sociales {

@@ -3,49 +3,35 @@
         font-size: auto;
     }
 }
-.check{
-    // background-color: aqua;
-    height: 60px;
-    border-right: 1px solid $secondary-color;
-    width: 150px;
-}
-.check-row{
+.check-cont{
     position: relative;
     section{
         position: relative;
+        top: 10px;
     }
 }
-.check-in, .check-out{
-    position: relative;
-    p{
-        position: relative;
-        top: 20px;
-        font-size: size(1.8);
-    }
-}
-.habitaciones{
-    position: relative;
-    h4{
-        position: relative;
-        bottom: 9px;
-        left: 15px;
-    }
-    p{
-        position: relative;
-        left: 50px;
-        top: 20px;
-    }
-}
-.suite{
-    position: relative;
-    h4{
-        position: relative;
-        bottom: 9px;
-        left: 15px;
-    }
-    p{
-        position: relative;
-        left: 50px;
-        top: 20px;
+#check{
+    section{
+        padding-right: 20px;
+        padding-left: 20px;
+        border-right: 1px solid $secondary-color;
+        @media screen and (min-width: 576px) {
+            h4{
+                font-size: auto;
+            }
+            p{
+                font-size: auto;
+            }
+
+        }
+        @media screen and (max-width: 576px) {
+            h4{
+                font-size: size(2.3);
+            }
+            p{
+                font-size: size(1.8);
+            }
+
+        }
     }
 }
