@@ -733,8 +733,8 @@
   overflow: hidden;
 }
 
-.cont-contacto, .cont-reserva {
-  --animate-duration: 0.8s;
+.cont-contacto {
+  transition: all 0.3s ease 0.3s;
 }
 
 .card-turismo {
