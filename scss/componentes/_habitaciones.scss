@@ -1,0 +1,51 @@
+.intro-hab{
+    h3{
+        font-size: auto;
+    }
+}
+.check{
+    // background-color: aqua;
+    height: 60px;
+    border-right: 1px solid $secondary-color;
+    width: 150px;
+}
+.check-row{
+    position: relative;
+    section{
+        position: relative;
+    }
+}
+.check-in, .check-out{
+    position: relative;
+    p{
+        position: relative;
+        top: 20px;
+        font-size: size(1.8);
+    }
+}
+.habitaciones{
+    position: relative;
+    h4{
+        position: relative;
+        bottom: 9px;
+        left: 15px;
+    }
+    p{
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+}
+.suite{
+    position: relative;
+    h4{
+        position: relative;
+        bottom: 9px;
+        left: 15px;
+    }
+    p{
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+}

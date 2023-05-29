@@ -741,6 +741,26 @@
   height: 700px;
   overflow: hidden;
 }
+@media screen and (max-width: 576px) {
+  .card-turismo h3 {
+    font-size: 22.4px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .card-turismo h3 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card-turismo p {
+    font-size: 14.4px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .card-turismo p {
+    font-size: 16px;
+  }
+}
 
 body {
   font-family: "Bitter", serif;
@@ -1082,7 +1102,6 @@ video {
   text-shadow: none;
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
-
 .btn-5:hover {
   color: white;
   border: 1px solid;
@@ -1108,12 +1127,12 @@ video {
   width: 65%;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 576px) {
   .titulo-spa h2 {
     font-size: 20.8px;
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 576px) {
   .titulo-spa h2 {
     font-size: 36px;
   }
@@ -1132,12 +1151,12 @@ video {
   position: relative;
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 576px) {
   .texto-carousel-spa {
     font-size: 14.4px;
   }
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 576px) {
   .texto-carousel-spa {
     font-size: 18.4px;
   }
@@ -1174,12 +1193,12 @@ video {
   font-weight: 600;
   padding-top: 80px;
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 576px) {
   .text-promo-spa h5 {
     font-size: 16.8px;
   }
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 576px) {
   .text-promo-spa h5 {
     font-size: 24px;
   }
@@ -1189,18 +1208,115 @@ video {
   font-style: italic;
   margin-left: 35px;
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 576px) {
   .text-promo-spa p {
     font-size: 14.4px;
   }
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 576px) {
   .text-promo-spa p {
     font-size: 16.8px;
   }
 }
 .text-promo-spa a button {
   margin-left: 90px;
+}
+
+@media screen and (max-width: 576px) {
+  .paquetes-spa {
+    font-size: 14.4px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .paquetes-spa {
+    font-size: 16.8px;
+  }
+}
+
+#paquete {
+  width: 470px;
+  height: 200px;
+  background-color: #dbe7f2;
+}
+@media screen and (max-width: 576px) {
+  #paquete {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #paquete {
+    width: 470px;
+    height: 200px;
+  }
+}
+#paquete h3 {
+  font-weight: 400;
+  padding-top: 80px;
+}
+@media screen and (max-width: 576px) {
+  #paquete h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #paquete h3 {
+    font-size: 24px;
+  }
+}
+
+.intro-hab h3 {
+  font-size: auto;
+}
+
+.check {
+  height: 60px;
+  border-right: 1px solid #cbcbcb;
+  width: 150px;
+}
+
+.check-row {
+  position: relative;
+}
+.check-row section {
+  position: relative;
+}
+
+.check-in, .check-out {
+  position: relative;
+}
+.check-in p, .check-out p {
+  position: relative;
+  top: 20px;
+  font-size: 14.4px;
+}
+
+.habitaciones {
+  position: relative;
+}
+.habitaciones h4 {
+  position: relative;
+  bottom: 9px;
+  left: 15px;
+}
+.habitaciones p {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.suite {
+  position: relative;
+}
+.suite h4 {
+  position: relative;
+  bottom: 9px;
+  left: 15px;
+}
+.suite p {
+  position: relative;
+  left: 50px;
+  top: 20px;
 }
 
 .redes-sociales {

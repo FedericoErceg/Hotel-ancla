@@ -1,4 +1,20 @@
 .card-turismo{
     height: 700px;
     overflow: hidden;
+    h3{
+        @media screen and (max-width: 576px) {
+            font-size: size(2.8);
+        }
+        @media screen and (min-width: 576px) {
+            font-size: size(3.5);
+        }
+    }
+    p{
+        @media screen and (max-width: 576px) {
+            font-size: size(1.8);
+        }
+        @media screen and (min-width: 576px) {
+            font-size: size(2);
+        }
+    }
 }

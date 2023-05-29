@@ -5,10 +5,10 @@
 // texto
 .titulo-spa{
     h2{
-        @media screen and (max-width: 300px) {
+        @media screen and (max-width: 576px) {
             font-size: size(2.6);
         }
-        @media screen and (min-width: 500px) {
+        @media screen and (min-width: 576px) {
             font-size: size(4.5);
         }
     }
@@ -26,10 +26,10 @@
     position: relative;
 }
 .texto-carousel-spa{
-    @media screen and (max-width: 325px) {
+    @media screen and (max-width: 576px) {
         font-size: size(1.8);
     }
-    @media screen and (min-width: 350px) {
+    @media screen and (min-width: 576px) {
         font-size: size(2.3);
     }
 }
@@ -61,10 +61,10 @@
     h5{
         font-weight: 600;
         padding-top: 80px;
-        @media screen and (max-width: 325px) {
+        @media screen and (max-width: 576px) {
             font-size: size(2.1);
         }
-        @media screen and (min-width: 350px) {
+        @media screen and (min-width: 576px) {
             font-size: size(3);
         }
     }
@@ -72,16 +72,47 @@
         width: 80%;
         font-style: italic;
         margin-left: 35px;
-        @media screen and (max-width: 325px) {
+        @media screen and (max-width: 576px) {
             font-size: size(1.8);
         }
-        @media screen and (min-width: 350px) {
+        @media screen and (min-width: 576px) {
             font-size: size(2.1);
         }
     }
     a{
         button{
             margin-left: 90px;
+        }
+    }
+}
+.paquetes-spa{
+    @media screen and (max-width: 576px) {
+        font-size: size(1.8);
+    }
+    @media screen and (min-width: 576px) {
+        font-size: size(2.1);
+    }
+}
+#paquete{
+    width: 470px;
+    height: 200px;
+    background-color: lighten($color: #BDD4E7, $amount: 8);
+    @media screen and (max-width: 576px) {
+        width: 300px;
+        height: 200px;
+    }
+    @media screen and (min-width: 576px) {
+        width: 470px;
+        height: 200px;
+    }
+    h3{
+        font-weight: 400;
+        padding-top: 80px;
+        @media screen and (max-width: 576px) {
+            font-size: size(2);
+        }
+        @media screen and (min-width: 576px) {
+            font-size: size(3);
         }
     }
 }
