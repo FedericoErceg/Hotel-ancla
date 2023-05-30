@@ -894,9 +894,14 @@ video {
 }
 
 .index-svg {
+  position: relative;
   color: #cbcbcb;
   width: 40px;
   height: 40px;
+}
+.index-svg svg {
+  position: relative;
+  left: 12px;
 }
 
 .promo-index {
@@ -1150,6 +1155,19 @@ video {
 .row-spa-t {
   position: relative;
 }
+.row-spa-t h2 {
+  font-size: auto;
+}
+@media screen and (min-width: 576px) {
+  .row-spa-t h2 {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .row-spa-t h2 {
+    font-size: 22.4px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .texto-carousel-spa {
@@ -1268,6 +1286,58 @@ video {
 .intro-hab h3 {
   font-size: auto;
 }
+@media screen and (min-width: 576px) {
+  .intro-hab h3 {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .intro-hab h3 {
+    font-size: 22.4px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .intro-hab p {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .intro-hab p {
+    font-size: 15.2px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #Habitaciones-row div h2 {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #Habitaciones-row div h2 {
+    font-size: 22.4px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #Habitaciones-row div p {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #Habitaciones-row div p {
+    font-size: 15.2px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .row-spa-t div p {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .row-spa-t div p {
+    font-size: 12.8px;
+  }
+}
 
 .check-cont {
   position: relative;
@@ -1296,6 +1366,32 @@ video {
   }
   #check section p {
     font-size: 14.4px;
+  }
+}
+
+.hab-superior div img {
+  height: 100%;
+  width: 100%;
+}
+
+.hab-standar div img {
+  height: 100%;
+  width: 100%;
+}
+
+#btn-5-hab {
+  margin-right: 40px;
+}
+@media screen and (min-width: 576px) {
+  #btn-5-hab {
+    font-size: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #btn-5-hab {
+    margin-left: 30px;
+    width: 130px;
+    font-size: 15.2px;
   }
 }
 

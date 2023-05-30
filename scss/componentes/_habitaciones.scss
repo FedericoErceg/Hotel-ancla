@@ -1,6 +1,52 @@
 .intro-hab{
     h3{
         font-size: auto;
+        @media screen and (min-width: 576px) {
+            font-size: auto;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: size(2.8);
+        }
+    }
+    p{
+        @media screen and (min-width: 576px) {
+            font-size: auto;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: size(1.9);
+        }
+    }
+}
+#Habitaciones-row{
+    div{
+        h2{
+            @media screen and (min-width: 576px) {
+                font-size: auto;
+            }
+            @media screen and (max-width: 576px) {
+                font-size: size(2.8);
+            }
+        }
+        p{
+            @media screen and (min-width: 576px) {
+                font-size: auto;
+            }
+            @media screen and (max-width: 576px) {
+                font-size: size(1.9);
+            }
+        }
+    }
+}
+.row-spa-t{
+    div{
+        p{
+            @media screen and (min-width: 576px) {
+                font-size: auto;
+            }
+            @media screen and (max-width: 576px) {
+                font-size: size(1.6);
+            }
+        }
     }
 }
 .check-cont{
@@ -33,5 +79,33 @@
             }
 
         }
+    }
+}
+.hab-superior{
+
+    div{
+       img{
+        height: 100%;
+        width: 100%;
+       } 
+    }
+}
+.hab-standar{
+    div{
+       img{
+        height: 100%;
+        width: 100%;
+       } 
+    }
+}
+#btn-5-hab{
+    margin-right: 40px;
+    @media screen and (min-width: 576px) {
+        font-size: auto;
+    }
+    @media screen and (max-width: 576px) {
+        margin-left: 30px;
+        width: 130px;
+        font-size: size(1.9);
     }
 }

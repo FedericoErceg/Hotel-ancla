@@ -24,6 +24,15 @@
 }
 .row-spa-t{
     position: relative;
+    h2{
+        font-size: auto;
+        @media screen and (min-width: 576px) {
+            font-size: auto;
+        }
+        @media screen and (max-width: 576px) {
+            font-size: size(2.8);
+        }
+    }
 }
 .texto-carousel-spa{
     @media screen and (max-width: 576px) {

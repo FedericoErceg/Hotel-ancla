@@ -21,9 +21,14 @@
     border-radius: 20px;
 }
 .index-svg{
+    position: relative;
     color: $secondary-color;
     width: 40px;
     height: 40px;
+    svg{
+        position: relative;
+        left: 12px;
+    }
 }
 .promo-index{
     padding: auto;
